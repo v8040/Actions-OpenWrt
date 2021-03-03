@@ -1,5 +1,5 @@
 #!/bin/bash
-cd openwrt
+#cd openwrt
 cat >> .config <<EOF
 CONFIG_TARGET_armvirt=y
 CONFIG_TARGET_armvirt_64=y
